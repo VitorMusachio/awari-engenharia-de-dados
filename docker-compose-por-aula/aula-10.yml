@@ -108,7 +108,7 @@ services:
 
   # Airflow Services
   awari-airflow-postgres:
-    image: postgres:13
+    image: postgres:12
     container_name: awari-airflow-postgres
     ports:
       - "5434:5432"
